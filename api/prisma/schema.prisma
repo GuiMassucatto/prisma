@@ -18,5 +18,6 @@ model Clientes {
 model comida {
   id       Int    @id @default(autoincrement())
   nome     String
-  preco    Float
+  preco    Float 
+  imagemUrl String     
 }
